@@ -1,0 +1,65 @@
+<html>
+
+   <head>
+       <title>The jQuery Example & Javascript example</title>
+
+       <script type = "text/javascript"  src = "https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		
+      <script type = "text/javascript">
+         $(document).ready(function(){
+              $("div").click(function() {alert("Hello, world! con jQuery");});
+         });
+      </script>		
+
+      <script type="text/javascript">
+         <!--
+            function sayHelloPopUp() {
+               alert("Hello World by function")
+            }
+            function sayHello() {
+               return("Hello World")
+            }
+
+         //-->
+      </script>
+      
+   </head>
+
+   <body>
+
+   <h3>Nivel 3 de header</h3>
+   <h4>Escribo con p de html </h4>
+   <p> Hola mundo by p</p>
+
+   <br>
+    <h4>Llamo a funci&oacuten que llama funci&oacuten</h4>
+      <script language="javascript" type="text/javascript">
+         <!--
+            document.write(sayHello())
+         //-->
+      </script>
+
+  
+    <br>
+    <h4>Llamo a funci&oacuten popup</h4>
+      <input type="button" onclick="sayHelloPopUp()" value="Say Hello" />
+   
+
+   <br>
+
+  <h4>Llamo a funci&oacuten que escribe</h4>
+   <script language="javascript" type="text/javascript">
+         <!--
+            document.write("Hola Mundo cruel!")
+         //-->
+   </script>
+
+    <br>
+    <br>
+    <h4> Esto deber&iacutea actuar con jquery </h4>
+    <div id = "mydiv">
+         Click on this to see a dialogue box.
+      </div>
+
+   </body>
+</html>
